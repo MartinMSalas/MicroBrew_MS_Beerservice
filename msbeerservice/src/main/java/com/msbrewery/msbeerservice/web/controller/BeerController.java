@@ -1,12 +1,13 @@
 package com.msbrewery.msbeerservice.web.controller;
 
 import com.msbrewery.msbeerservice.web.model.BeerDto;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
-
+@Slf4j
 @RestController
 @RequestMapping("/api/v1/beer")
 public class BeerController {
@@ -20,6 +21,7 @@ public class BeerController {
 
     @PostMapping
     public ResponseEntity<BeerDto> saveNewBeer(@RequestBody BeerDto beerDto) {
+        log.debug("Saving a new beer");
         // TODO: Implement this method
         return new ResponseEntity<>(HttpStatus.CREATED);
     }
