@@ -22,9 +22,8 @@ import java.util.UUID;
 public class Beer {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(length = 36, columnDefinition = "varchar", updatable = false, nullable = false)
-    private UUID id;
+    @Column(length = 36, columnDefinition = "VARCHAR(36)",  updatable = false, nullable = false)
+    private String id;
 
     @Version
     private Long version;
@@ -43,4 +42,10 @@ public class Beer {
     private Integer minOnHand;
     private Integer quantityToBrew;
 
+    @PrePersist
+    private void generateUUID() {
+        if (id == null) {
+            id = UUID.randomUUID().toString();
+        }
+    }
 }
