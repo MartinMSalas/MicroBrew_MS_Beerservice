@@ -1,0 +1,10 @@
+/home/martin/Developer/Java/Projects/Microservices/MicroBrew/MS_BeerService/MicroBrew_MS_Beerservice/msbeerservice/src/main/java/com/msbrewery/msbeerservice/repository/BeerRepository.java
+/home/martin/Developer/Java/Projects/Microservices/MicroBrew/MS_BeerService/MicroBrew_MS_Beerservice/msbeerservice/src/main/java/com/msbrewery/msbeerservice/web/model/enums/BeerStyleEnum.java
+/home/martin/Developer/Java/Projects/Microservices/MicroBrew/MS_BeerService/MicroBrew_MS_Beerservice/msbeerservice/src/main/java/com/msbrewery/msbeerservice/MsbeerserviceApplication.java
+/home/martin/Developer/Java/Projects/Microservices/MicroBrew/MS_BeerService/MicroBrew_MS_Beerservice/msbeerservice/src/main/java/com/msbrewery/msbeerservice/domain/Beer.java
+/home/martin/Developer/Java/Projects/Microservices/MicroBrew/MS_BeerService/MicroBrew_MS_Beerservice/msbeerservice/src/main/java/com/msbrewery/msbeerservice/web/model/BeerPagedList.java
+/home/martin/Developer/Java/Projects/Microservices/MicroBrew/MS_BeerService/MicroBrew_MS_Beerservice/msbeerservice/src/main/java/com/msbrewery/msbeerservice/web/controller/MvcExceptionHandler.java
+/home/martin/Developer/Java/Projects/Microservices/MicroBrew/MS_BeerService/MicroBrew_MS_Beerservice/msbeerservice/src/main/java/com/msbrewery/msbeerservice/web/controller/BeerController.java
+/home/martin/Developer/Java/Projects/Microservices/MicroBrew/MS_BeerService/MicroBrew_MS_Beerservice/msbeerservice/src/main/java/com/msbrewery/msbeerservice/web/model/BeerDto.java
+/home/martin/Developer/Java/Projects/Microservices/MicroBrew/MS_BeerService/MicroBrew_MS_Beerservice/msbeerservice/src/main/java/com/msbrewery/msbeerservice/bootstrap/BeerLoader.java
+/home/martin/Developer/Java/Projects/Microservices/MicroBrew/MS_BeerService/MicroBrew_MS_Beerservice/msbeerservice/src/main/java/com/msbrewery/msbeerservice/mapper/BeerMapper.java

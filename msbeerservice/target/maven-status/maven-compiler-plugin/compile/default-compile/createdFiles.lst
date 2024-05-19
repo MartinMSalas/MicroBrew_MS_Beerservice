@@ -1,0 +1,12 @@
+com/msbrewery/msbeerservice/web/model/enums/BeerStyleEnum.class
+com/msbrewery/msbeerservice/repository/BeerRepository.class
+com/msbrewery/msbeerservice/web/controller/BeerController.class
+com/msbrewery/msbeerservice/MsbeerserviceApplication.class
+com/msbrewery/msbeerservice/web/model/BeerPagedList.class
+com/msbrewery/msbeerservice/domain/Beer.class
+com/msbrewery/msbeerservice/web/model/BeerDto$BeerDtoBuilder.class
+com/msbrewery/msbeerservice/web/controller/MvcExceptionHandler.class
+com/msbrewery/msbeerservice/mapper/BeerMapper.class
+com/msbrewery/msbeerservice/web/model/BeerDto.class
+com/msbrewery/msbeerservice/domain/Beer$BeerBuilder.class
+com/msbrewery/msbeerservice/bootstrap/BeerLoader.class
